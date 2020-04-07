@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/scene.gltf" type="PackedScene" id=1]
+
+[node name="scene" instance=ExtResource( 1 )]
+
+[node name="RootNode (gltf orientation matrix)" parent="." index="0"]
+editor/display_folded = true
+
+[node name="RootNode (model correction matrix)" parent="RootNode (gltf orientation matrix)" index="0"]
+editor/display_folded = true
+
+[node name="Root" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)" index="0"]
+editor/display_folded = true
+
+[node name="parts" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="0"]
+editor/display_folded = true
+
+[node name="ground002" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="1"]
+editor/display_folded = true
+
+[node name="sky" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="2"]
+editor/display_folded = true
+visible = false
+
+[node name="cabin" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="3"]
+editor/display_folded = true
+
+[node name="ground" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="4"]
+editor/display_folded = true
+
+[node name="Cube003" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="5"]
+editor/display_folded = true
+
+[node name="Cube006" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="6"]
+editor/display_folded = true
+
+[node name="Cube007" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="7"]
+editor/display_folded = true
+
+[node name="water" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="8"]
+editor/display_folded = true
+
+[node name="Cube010" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="9"]
+editor/display_folded = true
+
+[node name="water002" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Root" index="10"]
+editor/display_folded = true
+visible = false
